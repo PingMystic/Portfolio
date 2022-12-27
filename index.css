@@ -353,13 +353,13 @@ body {
     opacity: 1;
   }
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .header .close-mob {
     visibility: visible;
     opacity: 1;
     display: flex;
   }
-}
+} */
 .header .mobile {
   display: none;
   visibility: hidden;

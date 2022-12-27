@@ -20,6 +20,7 @@ function showMobile() {
   mobileMenu.style.transition = ".3s";
   closeMobIcon.style.visibility = "visible";
   closeMobIcon.style.opacity = "1";
+  closeMobIcon.style.display = "flex";
   closeMobIcon.style.transition = ".3s";
   barsIcon.style.visibility = "hidden";
   barsIcon.style.opacity = "0";
@@ -32,6 +33,7 @@ function hideMobile() {
   mobileMenu.style.transition = ".3s";
   closeMobIcon.style.visibility = "hidden";
   closeMobIcon.style.opacity = "0";
+  closeMobIcon.style.display = "none";
   closeMobIcon.style.transition = ".3s";
   barsIcon.style.visibility = "visible";
   barsIcon.style.opacity = "1";
